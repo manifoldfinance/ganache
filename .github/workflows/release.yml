@@ -41,8 +41,8 @@ jobs:
       - name: Run build
         run: npm run build
 
-      - name: Shrinkwrap fixup
-        run: npm run prepublishOnly
+      # - name: Shrinkwrap fixup
+      #   run: npm run prepublishOnly
 
       # - name: Update documentation
       #   run: |
